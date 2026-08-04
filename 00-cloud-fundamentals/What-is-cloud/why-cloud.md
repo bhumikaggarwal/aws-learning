@@ -4,7 +4,7 @@ Problem
 
 Companies had to buy expensive servers, storage, networking devices, and software before starting a business.
 
-Cloud Solution
+Cloud Solution.
 
 Rent resources instead of buying them.
 Pay only for what you use (Pay-as-you-go).
