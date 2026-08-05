@@ -78,6 +78,7 @@ Ongoing operational costs
 Vendor dependency (Vendor Lock-in)
 Customers have limited control over physical infrastructure
 Misconfiguration by customers can lead to security issues
+
 When Should You Choose Traditional IT?
 
 Traditional IT is preferred when:
