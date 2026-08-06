@@ -1,92 +1,111 @@
 # Disadvantages of Cloud Computing
 
-Cloud computing offers many benefits, but it also has some drawbacks.
+Cloud computing offers many benefits, but it also comes with certain limitations and challenges.
 
 ---
 
-## 1. Internet Dependency
-- Requires a stable internet connection.
+## 1. Internet Dependency 🌐
+
+- Cloud services require a stable internet connection.
 - Poor connectivity can affect application availability and performance.
 
-**Example:** Unable to access cloud applications during an internet outage.
+**Example:** Users cannot access cloud applications during an internet outage.
 
 ---
 
-## 2. Downtime
+## 2. Downtime ⏳
+
 - Cloud providers may experience service outages.
 - Applications become unavailable until the issue is resolved.
 
-**Example:** AWS region outage affecting hosted applications.
+**Example:** An AWS regional outage affecting hosted applications.
 
 ---
 
-## 3. Security & Privacy Risks
+## 3. Security & Privacy Risks 🔒
+
 - Sensitive data is stored on third-party servers.
-- Risk of data breaches if security is compromised.
+- Security breaches can expose confidential information.
 
-**Mitigation:** Encryption, IAM, MFA, Security Groups.
-
----
-
-## 4. Vendor Lock-in
-- Difficult to migrate applications and data to another cloud provider.
-- Different providers use different services and APIs.
-
-**Example:** Moving from AWS Lambda to Azure Functions requires code changes.
+**Mitigation:**
+- Encryption
+- IAM (Identity and Access Management)
+- MFA (Multi-Factor Authentication)
+- Security Groups
 
 ---
 
-## 5. Cost Overruns
-- Pay-as-you-go can become expensive if resources are not monitored.
+## 4. Vendor Lock-in 🔄
+
+- Migrating applications and data between cloud providers can be difficult.
+- Different providers use different services, APIs, and architectures.
+
+**Example:** Moving from AWS Lambda to Azure Functions may require code changes.
+
+---
+
+## 5. Cost Overruns 💰
+
+- Pay-as-you-go pricing can become expensive if resources are not monitored.
 - Unused resources continue generating costs.
 
 **Example:** Running idle EC2 instances 24/7.
 
 ---
 
-## 6. Limited Control
+## 6. Limited Control ⚙️
+
 - Infrastructure is managed by the cloud provider.
-- Users have limited control over hardware and networking.
+- Users have limited control over hardware and low-level networking.
 
 ---
 
-## 7. Compliance Challenges
-- Some industries have strict regulations on where data can be stored.
-- Must comply with standards like GDPR, HIPAA, PCI-DSS.
+## 7. Compliance Challenges 📋
+
+- Some industries have strict data storage regulations.
+- Organizations must comply with standards such as:
+  - GDPR
+  - HIPAA
+  - PCI-DSS
 
 ---
 
-## 8. Performance & Latency
-- Network delays can impact application performance.
+## 8. Performance & Latency ⚡
+
+- Network delays can affect application performance.
 - Data centers located far from users increase latency.
 
 ---
 
-## 9. Data Transfer Costs
+## 9. Data Transfer Costs 📤
+
 - Uploading data is often free.
-- Downloading (egress) large amounts of data can be expensive.
+- Downloading data (egress traffic) may incur additional charges.
 
 ---
 
-## 10. Shared Responsibility
-- Cloud provider secures the infrastructure.
-- Customer is responsible for securing applications, data, and user access.
+## 10. Shared Responsibility 🤝
+
+Cloud security follows a **Shared Responsibility Model**:
+
+- **Cloud Provider:** Secures infrastructure.
+- **Customer:** Secures applications, data, identities, and access.
 
 ---
 
-# Interview Summary
+# Summary Table
 
 | Disadvantage | Description |
-|-------------|-------------|
-| Internet Dependency | Requires reliable internet |
-| Downtime | Cloud outages affect availability |
-| Security Risks | Data stored on third-party servers |
+|--------------|-------------|
+| Internet Dependency | Requires reliable internet connectivity |
+| Downtime | Service outages affect availability |
+| Security Risks | Data is stored on third-party infrastructure |
 | Vendor Lock-in | Difficult migration between providers |
-| Cost Overruns | Pay-as-you-go can become expensive |
-| Limited Control | No physical control over infrastructure |
-| Compliance | Must follow regulatory requirements |
-| Latency | Network delays affect performance |
-| Data Transfer Cost | Egress traffic can be costly |
-| Shared Responsibility | Customer must secure data and applications |
+| Cost Overruns | Unused resources increase costs |
+| Limited Control | No direct control over infrastructure |
+| Compliance | Must meet regulatory requirements |
+| Latency | Network delays impact performance |
+| Data Transfer Costs | Egress traffic can be expensive |
+| Shared Responsibility | Customers must secure their own data and applications |
 
-
+---
